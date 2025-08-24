@@ -729,6 +729,12 @@ public class BoxTestGenerated extends AbstractBoxTest {
       }
 
       @Test
+      @TestMetadata("MemberInjectionFromBindingInParentModule.kt")
+      public void testMemberInjectionFromBindingInParentModule() {
+        runTest("compiler-tests/src/test/data/box/inject/member/MemberInjectionFromBindingInParentModule.kt");
+      }
+
+      @Test
       @TestMetadata("MemberInjectorRequest.kt")
       public void testMemberInjectorRequest() {
         runTest("compiler-tests/src/test/data/box/inject/member/MemberInjectorRequest.kt");
