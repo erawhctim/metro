@@ -1,3 +1,4 @@
+// https://github.com/ZacSweers/metro/issues/992
 interface ServiceClass { fun doSomething() }
 
 class RealServiceClass @Inject constructor(): ServiceClass {
